@@ -1,3 +1,7 @@
-1. npm install 
-2. npm run start
+Для подготовки запустите:
 
+            npm install  
+
+Для запуска:
+
+            npm run start
