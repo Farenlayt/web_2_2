@@ -8,12 +8,12 @@ import throttle from 'lodash.throttle';
 function createStore() {
     const persistedState = loadState();
     if (persistedState != null) {
-        persistedState.favourCityReducer.cities = persistedState.favourCityReducer.cities.filter(function(city) {return !city.isUpdating;});
+        const state = { favourCityReducer : { cities: persistedState.map(function(city) {return {cityData: {name: city}, isLoading: true}})}};
 
         return configureStore({
             reducer: rootReducer,
             middleware: [thunk],
-            preloadedState: persistedState
+            preloadedState: state
         });
     } else {
         return configureStore({
@@ -26,8 +26,14 @@ function createStore() {
 const store = createStore();
 
 store.subscribe(throttle(function() {
+    const currentState = store.getState();
+    const city = currentState
+        .favourCityReducer
+        .cities
+        .filter(function(city) {return !city.error && !city.isUpdating})
+        .map(function(city) {return city.cityData.name});
     saveState(
-        store.getState()
+        city
     );
 }, 1000));
 

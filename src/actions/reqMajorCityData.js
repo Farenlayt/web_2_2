@@ -3,8 +3,8 @@ import majorCityReducer from "../reducers/majorCityReducer";
 const endpoint = "https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather";
 let appId = "f6812026ee4ca1c73603f52cd6a5034f";
 
-const defaultLat = 1.37;
-const defaultLon = 32.2903;
+const defaultLat = 59.9386300;
+const defaultLon = 30.3141300;
 
 
 async function getData(dispatch, latitude, longitude) {

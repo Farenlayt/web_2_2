@@ -22,6 +22,7 @@ class FavourCitiesWrapper extends Component {
                                               error={city.error}
                                               isMajor={false}
                                               cityData={city.cityData}
+                                              isLoading={city.isLoading}
                                               key={city.cityData.name}/>
                             )
                         }

@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
-import {requestfavourCityData} from "../../actions/reqFavourCityData";
+import favourCityReducer from "../../reducers/favourCityReducer";
 import "./FavourCitiesHeader.scss"
 
 function mapDispatchToProps(dispatch) {
     return {
-        addCity: function(cityName) {dispatch(requestfavourCityData(cityName))}
+        addCity: function(cityName){dispatch(favourCityReducer.actions.requestFavourData(cityName))}
     };
 }
 

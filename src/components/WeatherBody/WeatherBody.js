@@ -37,7 +37,7 @@ class WeatherBody extends Component {
     }
 
     render() {
-        const {cityData, isUpdating, isMajor, cityName, error} = this.props;
+        const {cityData, isUpdating, isMajor, cityName, error, isLoading} = this.props;
 
         if (error) {
             return (
@@ -50,6 +50,13 @@ class WeatherBody extends Component {
         if (isUpdating || !cityData) {
             return (
                 <Loader isMajor={isMajor} key={this.props.name}/>
+            )
+        }
+        if (isLoading) {
+            return (
+                <div key={this.props.name}>
+
+                </div>
             )
         }
             const {lon, lat} = cityData.coord;
