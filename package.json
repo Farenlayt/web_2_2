@@ -1,5 +1,5 @@
 {
-  "name": "sesa-lab-02",
+  "name": "keril-lab-02",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,8 @@
     "redux": "^4.0.4",
     "redux-starter-kit": "^1.0.0",
     "redux-thunk": "latest",
-    "styled-components": "^4.4.0"
+    "styled-components": "^4.4.0",
+    "react-test-renderer": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,7 +37,10 @@
     ]
   },
   "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
     "node-sass": "^4.13.0",
-    "redux-devtools": "^3.5.0"
+    "redux-devtools": "^3.5.0",
+    "redux-mock-store": "^1.5.3"
   }
 }

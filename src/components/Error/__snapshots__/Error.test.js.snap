@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error message is ok. 1`] = `
+<div>
+  <div>
+    Ошибочка вышла:
+  </div>
+  <div />
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    Удалить
+  </button>
+</div>
+`;

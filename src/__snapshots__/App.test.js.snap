@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Empty major is ok. 1`] = `
+<div
+  className="Application"
+>
+  <div>
+    <div
+      className="major-header"
+    >
+      <label>
+        Погода здесь
+      </label>
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="btn"
+          type="submit"
+          value="Обновить геолокацию"
+        />
+      </form>
+    </div>
+    <div
+      className="major-loader"
+    >
+      Подождите, данные загружаются
+    </div>
+  </div>
+  <div>
+    <div
+      className="favour-header"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div
+          className="favour-header-text"
+        >
+          Избранное
+        </div>
+        <div>
+          <input
+            className="input-field"
+            id="search-input"
+            placeholder="Добавить новый город"
+            type="text"
+          />
+          <input
+            className="btn"
+            type="submit"
+            value="Добавить новый город"
+          />
+        </div>
+      </form>
+    </div>
+    <div
+      className="favour-city-wrapper"
+    />
+  </div>
+</div>
+`;

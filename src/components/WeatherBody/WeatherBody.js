@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import favourCityReducer from "../../reducers/favourCityReducer";
+import majorCityReducer from "../../reducers/majorCityReducer"
 import {requestfavourCityData} from "../../actions/reqFavourCityData";
-import {requestMajorData} from "../../actions/reqMajorCityData";
 import {connect} from "react-redux";
 import './WeatherBody.scss'
 import Loader from "../Loader/Loader";
@@ -10,7 +10,7 @@ import Error from "../Error/Error";
 function mapDispatchToProps(dispatch) {
     return {
         removeCity: function(cityName) {dispatch(favourCityReducer.actions.removefavourCity(cityName))},
-        updateCity:  function() {dispatch(requestMajorData())},
+        updateCity:  function() {dispatch(majorCityReducer.actions.requestMajorData())},
         addCity: function(cityName) {dispatch(requestfavourCityData(cityName))}
     };
 }

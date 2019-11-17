@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favour city loader is ok. 1`] = `
+<div
+  className="favour-loader"
+>
+  Подождите, данные загружаются
+</div>
+`;
+
+exports[`Main city loader is ok. 1`] = `
+<div
+  className="major-loader"
+>
+  Подождите, данные загружаются
+</div>
+`;

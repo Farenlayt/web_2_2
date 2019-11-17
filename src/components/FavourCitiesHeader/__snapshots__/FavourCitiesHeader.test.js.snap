@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favour city header is ok. 1`] = `
+<div
+  className="favour-header"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="favour-header-text"
+    >
+      Избранное
+    </div>
+    <div>
+      <input
+        className="input-field"
+        id="search-input"
+        placeholder="Добавить новый город"
+        type="text"
+      />
+      <input
+        className="btn"
+        type="submit"
+        value="Добавить новый город"
+      />
+    </div>
+  </form>
+</div>
+`;
