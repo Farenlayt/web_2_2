@@ -7,7 +7,10 @@ const favourCityReducer = createSlice({
         },
         reducers: {
             requestFavourData: function(state, action) {
-                return Object.assign({}, state, {
+                const stateWithout = state.cities.filter(function(city) {return city.cityData.name.toUpperCase() !== action.payload.toUpperCase();}).length;
+                if (state.cities.length != stateWithout)
+                return Object.assign({}, state);
+                else return Object.assign({}, state, {
                     cities: state.cities.filter(function(city) {return city.cityData.name.toUpperCase() !== action.payload.toUpperCase();}).concat({
                         isUpdating: true,
                         cityData: {name: action.payload}
