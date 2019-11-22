@@ -1,127 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Favor info is ok. 1`] = `
+exports[`Error on favour is ok. 1`] = `
 <div>
-  <div
-    className="favour-header"
-  >
-    <form
-      onSubmit={[Function]}
-    >
-      <div
-        className="favour-header-text"
-      >
-        Избранное
-      </div>
-      <div>
-        <input
-          className="input-field"
-          id="search-input"
-          placeholder="Добавить новый город"
-          type="text"
-        />
-        <input
-          className="btn"
-          type="submit"
-          value="Добавить новый город"
-        />
-      </div>
-    </form>
+  <div>
+    Ошибочка вышла:
   </div>
-  <div
-    className="favour-city-wrapper"
-  >
-    <div
-      className="favour-grid-wrapper"
-    >
-      <div
-        className="favour-weather"
-      >
-        <div
-          className="favour-city-name"
-        >
-          Kiev
-        </div>
-        <div
-          className="favour-city-temprature"
-        >
-          -9
-          °C
-        </div>
-        <div>
-          <img
-            alt="weather"
-            className="city-picture"
-            crossOrigin="anonymous"
-            src="http://openweathermap.org/img/wn/04n@2x.png"
-          />
-        </div>
-        <div
-          className="button-holder"
-        >
-          <button
-            className="btn"
-            onClick={[Function]}
-          >
-            Удалить
-          </button>
-        </div>
-      </div>
-      <p
-        className="add-data-element"
-      >
-        Ветер:    
-        <span>
-          6
-            м/с, 
-          110
-          °
-        </span>
-      </p>
-      <p
-        className="add-data-element"
-      >
-        Погода:   
-        <span>
-          Clouds
-        </span>
-      </p>
-      <p
-        className="add-data-element"
-      >
-        Влажность:  
-        <span>
-          61
-           %
-        </span>
-      </p>
-      <p
-        className="add-data-element"
-      >
-        Давление:  
-        <span>
-          1037
-           hpa
-        </span>
-      </p>
-      <p
-        className="add-data-element"
-      >
-        Координаты:  
-        <span>
-          [
-          30.52
-           , 
-          50.43
-          ]
-        </span>
-      </p>
-    </div>
+  <div>
+    There is no such city.
   </div>
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    Удалить
+  </button>
 </div>
 `;
 
-exports[`Major info is ok. 1`] = `
+exports[`Error on major city is ok. 1`] = `
+<div>
+  <div>
+    Ошибочка вышла:
+  </div>
+  <div>
+    There is no such city.
+  </div>
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    Удалить
+  </button>
+</div>
+`;
+
+exports[`Favour city with data is ok. 1`] = `
 <div
   className="favour-grid-wrapper"
 >
@@ -207,5 +120,114 @@ exports[`Major info is ok. 1`] = `
       ]
     </span>
   </p>
+</div>
+`;
+
+exports[`Favour city without data is ok. 1`] = `
+<div
+  className="favour-loader"
+>
+  Подождите, данные загружаются
+</div>
+`;
+
+exports[`Favour loader is ok. 1`] = `<div />`;
+
+exports[`Major city with data is ok. 1`] = `
+<div
+  className="favour-grid-wrapper"
+>
+  <div
+    className="favour-weather"
+  >
+    <div
+      className="favour-city-name"
+    >
+      Orenburg
+    </div>
+    <div
+      className="favour-city-temprature"
+    >
+      -18
+      °C
+    </div>
+    <div>
+      <img
+        alt="weather"
+        className="city-picture"
+        crossOrigin="anonymous"
+        src="http://openweathermap.org/img/wn/01n@2x.png"
+      />
+    </div>
+    <div
+      className="button-holder"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+      >
+        Удалить
+      </button>
+    </div>
+  </div>
+  <p
+    className="add-data-element"
+  >
+    Ветер:    
+    <span>
+      3
+        м/с, 
+      280
+      °
+    </span>
+  </p>
+  <p
+    className="add-data-element"
+  >
+    Погода:   
+    <span>
+      Clear
+    </span>
+  </p>
+  <p
+    className="add-data-element"
+  >
+    Влажность:  
+    <span>
+      77
+       %
+    </span>
+  </p>
+  <p
+    className="add-data-element"
+  >
+    Давление:  
+    <span>
+      1042
+       hpa
+    </span>
+  </p>
+  <p
+    className="add-data-element"
+  >
+    Координаты:  
+    <span>
+      [
+      55.1
+       , 
+      51.77
+      ]
+    </span>
+  </p>
+</div>
+`;
+
+exports[`Major loader is ok. 1`] = `<div />`;
+
+exports[`Major loader without data is ok. 1`] = `
+<div
+  className="favour-loader"
+>
+  Подождите, данные загружаются
 </div>
 `;

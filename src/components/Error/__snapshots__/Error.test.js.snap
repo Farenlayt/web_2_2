@@ -1,11 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Error message in major is ok. 1`] = `
+<div>
+  <div>
+    Ошибочка вышла:
+  </div>
+  <div>
+    Ошибочка вышла
+  </div>
+  <button
+    className="btn"
+    onClick={[Function]}
+  >
+    Удалить
+  </button>
+</div>
+`;
+
 exports[`Error message is ok. 1`] = `
 <div>
   <div>
     Ошибочка вышла:
   </div>
-  <div />
+  <div>
+    Ошибочка вышла
+  </div>
   <button
     className="btn"
     onClick={[Function]}

@@ -32,7 +32,7 @@ class WeatherBody extends Component {
             this.props.updateCity();
         }
         else {
-            this.props.addCity(this.props.cityData.name);
+            this.props.addCity(this.props.cityName || this.props.cityData.name);
         }
     }
 

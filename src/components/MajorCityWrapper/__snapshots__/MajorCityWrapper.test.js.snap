@@ -19,88 +19,9 @@ exports[`Major error is ok. 1`] = `
     </form>
   </div>
   <div
-    className="major-grid-wrapper"
+    className="major-loader"
   >
-    <div
-      className="major-weather"
-    >
-      <h2
-        className="major-city-name"
-      >
-        Orenburg
-      </h2>
-      <div>
-        <div
-          className="elem-wrapper"
-        >
-          <img
-            alt="weather"
-            className="city-picture"
-            crossOrigin="anonymous"
-            src="http://openweathermap.org/img/wn/01n@2x.png"
-          />
-        </div>
-      </div>
-      <div>
-        <h3>
-          <span
-            className="city-temperature"
-          >
-            -18
-            °C
-          </span>
-        </h3>
-      </div>
-    </div>
-    <p
-      className="add-data-element"
-    >
-      Ветер:    
-      <span>
-        3
-          м/с, 
-        280
-        °
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Погода:   
-      <span>
-        Clear
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Влажность:  
-      <span>
-        77
-         %
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Давление:  
-      <span>
-        1042
-         hpa
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Координаты:  
-      <span>
-        [
-        55.1
-         , 
-        51.77
-        ]
-      </span>
-    </p>
+    Подождите, данные загружаются
   </div>
 </div>
 `;
@@ -124,88 +45,9 @@ exports[`Major loading is ok. 1`] = `
     </form>
   </div>
   <div
-    className="major-grid-wrapper"
+    className="major-loader"
   >
-    <div
-      className="major-weather"
-    >
-      <h2
-        className="major-city-name"
-      >
-        Orenburg
-      </h2>
-      <div>
-        <div
-          className="elem-wrapper"
-        >
-          <img
-            alt="weather"
-            className="city-picture"
-            crossOrigin="anonymous"
-            src="http://openweathermap.org/img/wn/01n@2x.png"
-          />
-        </div>
-      </div>
-      <div>
-        <h3>
-          <span
-            className="city-temperature"
-          >
-            -18
-            °C
-          </span>
-        </h3>
-      </div>
-    </div>
-    <p
-      className="add-data-element"
-    >
-      Ветер:    
-      <span>
-        3
-          м/с, 
-        280
-        °
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Погода:   
-      <span>
-        Clear
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Влажность:  
-      <span>
-        77
-         %
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Давление:  
-      <span>
-        1042
-         hpa
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Координаты:  
-      <span>
-        [
-        55.1
-         , 
-        51.77
-        ]
-      </span>
-    </p>
+    Подождите, данные загружаются
   </div>
 </div>
 `;
@@ -229,88 +71,9 @@ exports[`Major wrapper is ok. 1`] = `
     </form>
   </div>
   <div
-    className="major-grid-wrapper"
+    className="major-loader"
   >
-    <div
-      className="major-weather"
-    >
-      <h2
-        className="major-city-name"
-      >
-        Orenburg
-      </h2>
-      <div>
-        <div
-          className="elem-wrapper"
-        >
-          <img
-            alt="weather"
-            className="city-picture"
-            crossOrigin="anonymous"
-            src="http://openweathermap.org/img/wn/01n@2x.png"
-          />
-        </div>
-      </div>
-      <div>
-        <h3>
-          <span
-            className="city-temperature"
-          >
-            -18
-            °C
-          </span>
-        </h3>
-      </div>
-    </div>
-    <p
-      className="add-data-element"
-    >
-      Ветер:    
-      <span>
-        3
-          м/с, 
-        280
-        °
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Погода:   
-      <span>
-        Clear
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Влажность:  
-      <span>
-        77
-         %
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Давление:  
-      <span>
-        1042
-         hpa
-      </span>
-    </p>
-    <p
-      className="add-data-element"
-    >
-      Координаты:  
-      <span>
-        [
-        55.1
-         , 
-        51.77
-        ]
-      </span>
-    </p>
+    Подождите, данные загружаются
   </div>
 </div>
 `;

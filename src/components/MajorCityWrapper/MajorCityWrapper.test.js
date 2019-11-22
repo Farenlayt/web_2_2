@@ -1,7 +1,6 @@
 import renderer from "react-test-renderer";
 import {Provider} from "react-redux";
 import storage from "../../store/FakeStorage";
-//import MainCityHeader from "../MainCityHeader/MainCityHeader";
 import React from "react";
 import MajorCityWrapper from "./MajorCityWrapper";
 
