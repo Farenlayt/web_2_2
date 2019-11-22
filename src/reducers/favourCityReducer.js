@@ -33,7 +33,7 @@ function updateObjectInArray(array, payload, isError) {
             return item
         } else {
             if (isError) {
-                return {cityData: {name: payload.name}, isUpdating: false, error: `The city with name ${payload.name} doesn't exist`};
+                return {cityData: {name: payload.name}, isUpdating: false, error: `Города с именем ${payload.name} нет.`};
             } else {
                 return {cityData: payload, cityName: payload.name, isUpdating: false, error: null};
             }
